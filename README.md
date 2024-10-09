@@ -1,5 +1,3 @@
- 
-
 # Cross-Region Disaster Recovery with AWS
 
 This project demonstrates a **Cross-Region Disaster Recovery** architecture using AWS services. The solution ensures data redundancy and high availability across multiple AWS regions by leveraging Amazon **RDS**, **Route 53**, and other services for automated failover in the event of an outage in the primary region.
@@ -7,6 +5,8 @@ This project demonstrates a **Cross-Region Disaster Recovery** architecture usin
 ## Project Overview
 
 In this project, I designed a disaster recovery architecture that provides automatic failover from a primary AWS region to a secondary region. The setup ensures high availability, minimal downtime, and seamless failover for mission-critical applications.
+
+You can view the project details [here](https://awsportfolio.sila.studio/project/cross-region-disaster-recovery/).
 
 ### Key Features
 - **Cross-Region Read Replica**: Implemented Amazon RDS MySQL cross-region read replicas for data redundancy.
@@ -21,7 +21,6 @@ The architecture includes:
 2. **Secondary Region**: Houses a read replica of the RDS database, ready to take over in case of failure in the primary region.
 3. **Amazon Route 53**: Manages DNS and handles automatic failover by pointing traffic to the healthy region.
 4. **AWS Secrets Manager**: Securely stores database credentials, making them accessible across regions during failover.
-
 
 ## AWS Services Used
 - **Amazon RDS MySQL**: Provides a managed relational database with cross-region replication.
@@ -48,10 +47,9 @@ The architecture includes:
 
 ## Acknowledgments
 
-This project was completed as part of the coursework in **Digital Cloud Training**. Bootcamp 
+This project was completed as part of the coursework in **Digital Cloud Training** bootcamp.
 
 ## Conclusion
 
 This project highlights how to build a highly available, disaster-resilient architecture using AWS cross-region capabilities. By automating the failover process with Route 53 and replicating data with RDS MySQL, this architecture ensures minimal downtime and data loss during regional outages.
-
-![Screenshot 2024-04-12 184753](https://github.com/user-attachments/assets/69741ac8-26c3-436c-a180-18643384eaba)
+![Screenshot 2024-04-12 184753](https://github.com/user-attachments/assets/bf366d99-0afb-4838-a50e-1f205499454f)
