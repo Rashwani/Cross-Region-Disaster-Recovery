@@ -52,4 +52,5 @@ This project was completed as part of the coursework in **Digital Cloud Training
 ## Conclusion
 
 This project highlights how to build a highly available, disaster-resilient architecture using AWS cross-region capabilities. By automating the failover process with Route 53 and replicating data with RDS MySQL, this architecture ensures minimal downtime and data loss during regional outages.
+
 ![Screenshot 2024-04-12 184753](https://github.com/user-attachments/assets/bf366d99-0afb-4838-a50e-1f205499454f)
