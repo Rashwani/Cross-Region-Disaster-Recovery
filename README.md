@@ -1,4 +1,4 @@
-
+ 
 
 # Cross-Region Disaster Recovery with AWS
 
@@ -46,8 +46,12 @@ The architecture includes:
 - Add **CloudFront** to the architecture for global content delivery with built-in failover.
 - Explore additional disaster recovery strategies such as **Pilot Light** and **Warm Standby**.
 
+## Acknowledgments
+
+This project was completed as part of the coursework in **Digital Cloud Training**. Bootcamp 
+
 ## Conclusion
 
 This project highlights how to build a highly available, disaster-resilient architecture using AWS cross-region capabilities. By automating the failover process with Route 53 and replicating data with RDS MySQL, this architecture ensures minimal downtime and data loss during regional outages.
 
-![Screenshot 2024-04-12 184753](https://github.com/user-attachments/assets/ec458252-3ce9-4a88-8b64-a511d7fa8680)
+![Screenshot 2024-04-12 184753](https://github.com/user-attachments/assets/69741ac8-26c3-436c-a180-18643384eaba)
